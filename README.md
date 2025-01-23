@@ -91,24 +91,8 @@ The goal of this project is to:
 
 ## 📊 Data Visualization
 
-The following chart represents the proportion of orders that were:
-- Correctly charged.
-- Overcharged.
-- Undercharged.
+A pie chart was created to visually represent these proportions. It highlights the share of each category (Correctly Charged, Overcharged, and Undercharged) based on the analyzed data.
 
-### Pie Chart Example:
-```python
-import plotly.graph_objects as go
-
-fig = go.Figure(data=[go.Pie(
-    labels=["Correctly Charged", "Overcharged", "Undercharged"],
-    values=[12, 382, 7],
-    textinfo='label+percent',
-    hole=0.4
-)])
-
-fig.update_layout(title='Proportion of Charge Accuracy')
-fig.show()
 
 ## 💻 Tools and Technologies
 
